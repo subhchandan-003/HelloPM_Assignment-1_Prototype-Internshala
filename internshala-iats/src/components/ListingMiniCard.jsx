@@ -2,7 +2,7 @@ import ResponseRateBadge from './ResponseRateBadge';
 
 export default function ListingMiniCard({ listing, onApply }) {
   return (
-    <div className="min-w-[200px] bg-white border border-border-default rounded-lg p-3 shrink-0 snap-start">
+    <div className="w-full bg-white border border-border-default rounded-lg p-3">
       <div className="flex items-center gap-2 mb-2">
         <div
           className="w-7 h-7 rounded-full flex items-center justify-center text-white text-[10px] font-semibold shrink-0"

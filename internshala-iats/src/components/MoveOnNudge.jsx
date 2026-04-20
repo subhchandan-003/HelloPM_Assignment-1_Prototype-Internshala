@@ -34,8 +34,8 @@ export default function MoveOnNudge({ app, onViewListing, onApply }) {
             </p>
           </div>
 
-          {/* Horizontally scrollable listings */}
-          <div className="flex gap-3 overflow-x-auto pb-2 snap-x snap-mandatory -mx-1 px-1 scrollbar-hide">
+          {/* Vertical listing stack — full width, no clipping */}
+          <div className="flex flex-col gap-2">
             {curatedListings.map((listing) => (
               <ListingMiniCard
                 key={listing.id}
