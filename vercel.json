@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd internshala-iats && npm install && npm run build",
+  "outputDirectory": "internshala-iats/dist",
+  "installCommand": "cd internshala-iats && npm install",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
